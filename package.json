@@ -1,12 +1,15 @@
 {
   "scripts": {
-    "build": "parcel build index.html --no-source-maps"
+    "build": "rm -rf ./dist/* && webpack --progress"
   },
   "dependencies": {
     "monaco-editor": "^0.18.1"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10",
-    "typescript": "^3.6.4"
+    "css-loader": "^3.2.0",
+    "monaco-editor-webpack-plugin": "^1.7.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }
