@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "parcel build index.html --no-source-maps"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.18.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "typescript": "^3.6.4"
+  }
+}
